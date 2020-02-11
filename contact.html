@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>Liyana's Blog</title>
+<style>
+a.nav:link    { color:#FFC;background-color:transparent; text-decoration:none}
+a.nav:visited {color:#FFC;background-color:transparent; text-decoration:none}
+a.nav:hover   {color:black;background-color:#FFC; text-decoration:none;}
+a.nav:active{color:#FFC;background-color:transparent; text-decoration:none}
+
+a:link    { color:black;background-color:transparent; text-decoration:none}
+a:visited {color:black;background-color:transparent; text-decoration:none}
+a:hover   {color:#96C;background-color:transparent; text-decoration:none;}
+a:active{color:black;background-color:transparent; text-decoration:none}
+
+#main { 
+
+margin: 10px auto; 
+width: 1000px; 
+padding: 5px; 
+
+}
+#header{
+	height:300px;
+}
+#qoute{
+	background-color:#FAFAFA;
+		padding:20px;
+		margin:20px;}
+#nav{
+	  background-color:black;
+	font-family:tahoma;
+	font-size:12px;
+	text-align:center;
+	color:#FFC;
+	padding:10px;
+	margin:20px;
+   letter-spacing:3px;
+   font-weight:bold;
+	}
+a,#nav{ margin:30px;}
+#section{
+	background-color:#FFF;
+	font-family:Verdana, Geneva, sans-serif;
+		font-size:20px;
+		font-color:black;
+		padding:20px;
+		margin:20px;
+		background-image:url(picture/tumblr_mad8gieJH41rc7pm9o1_500.gif);
+		background-repeat:repeat; 		
+		background-position:center;
+		 }
+#footer {
+    background-color:black;
+	font-size:16px;
+	font-family:tahoma;
+    color:#FFC;
+    clear:both;
+    text-align:center;
+    padding:10px; 
+	margin:20px;
+}
+
+th,td{
+	padding:10px;
+	}
+</style>
+<script type="text/javascript" src="popup.js"></script>
+</head>
+
+<body background="picture/upfeathers.png" background-repeat: repeat; >
+<div id="main">
+
+<div id="header" align="center">
+<img src="picture/header.gif">
+</div>
+ 
+<div id="nav">
+<a class="nav" href="homepage.html">HOME</a>
+<a class="nav" href="aboutme.html">PROFILE</a>
+<a class="nav" href="DIY.html">DIY</a>  
+<a class="nav" href="inspired.html">INSPIRATION</a>
+<a class="nav" href="freebies.html">FREEBIES</a>  
+<a class="nav" href="contact.html">CONTACT</a>
+</div>
+
+<div id="qoute" align="center">
+<img src="picture/hi.gif">
+</div>
+
+<div id="section" >
+
+<form action="mailto:theochobots@gmail.com" method="post">
+<table style="margin-left:250px; margin-top:50px; font-size:20px; font-family:Tahoma;" >
+<tr>
+<td>Name :</td>
+<td><input type="text" name="Name :"></td>
+</tr>
+<tr>
+<td>Gender	:</td>
+<td> <input type="radio" name="Gender : " value="Male" checked>Male  <input type="radio" name="Gender : " value="Female"> Female</td>
+</tr>
+<tr>
+<td>Email :</td>
+<td><input type="email" name="Email : "></td>
+</tr>
+<tr>
+<td>Send files here : </td>
+<td><input type="file" name="File : " ></td>
+<tr>
+<td>Message? : </td>
+<td><textarea name="message">
+</textarea></td>
+<tr>
+<td colspan="2" align="center">
+<input type="submit" name="submit" value="SUBMIT!" onClick="submitShow()" style="background-color:black; color:#FAFAFA; padding : 10px; font-family:Tahoma;font-size:12px;text-align:center; letter-spacing:5px; font-weight:bold; box-shadow:0px;" ><input type="reset" name="reset" value="RESET" onClick="resetShow()" style="background-color:black; color:#FAFAFA; padding :10px; font-family:Tahoma;font-size:12px;text-align:center; letter-spacing:5px; font-weight:bold;" ></td>
+</tr>
+</tr>
+</table>
+</form>
+</div>
+
+
+<a title="Back to Top" href="#" style="position: fixed; bottom: 5px; right: 5px;"><img src="picture/tumblr_inline_n6camiec6D1rxsw83.gif"></a>
+
+ <div id="footer">
+<pre>CSC318 &copy; Nur Liyana binti Mohd Lazim | CS1104C | 2015 | All rights reserved</pre>
+</div>
+
+</div>
+</body>
+</html>
